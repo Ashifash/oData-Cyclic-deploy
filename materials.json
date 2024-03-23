@@ -1,0 +1,452 @@
+{
+    "materials": [
+        {
+            "materialId": "MAT001",
+            "description": "Screwdriver",
+            "category": "Tools",
+            "unitPrice": 10.5,
+            "currency": "USD",
+            "quantityOnOrder": 25,
+            "reorderPoint": 10,
+            "supplier": {
+                "name": "ABC Tools Inc.",
+                "contactPerson": "John Smith",
+                "phoneNumber": "+1234567890",
+                "email": "john@example.com"
+            },
+            "storageLocation": "Warehouse A",
+            "batchManaged": true,
+            "serialManaged": false,
+            "valuationClass": "Standard",
+            "materialGroup": "1001",
+            "unitOfMeasure": "Each",
+            "createdDate": "2023-05-10",
+            "lastUpdated": "2024-02-20",
+            "images": [
+                "https://images-na.ssl-images-amazon.com/images/I/71fAGaQNMHL.jpg"
+            ],
+            "attachments": [
+                {
+                    "name": "Specification Sheet",
+                    "url": "https://example.com/screwdriver_spec.pdf"
+                }
+            ]
+        },
+        {
+            "materialId": "MAT002",
+            "description": "Hammer",
+            "category": "Tools",
+            "unitPrice": 15.75,
+            "currency": "USD",
+            "quantityOnOrder": 15,
+            "reorderPoint": 8,
+            "supplier": {
+                "name": "XYZ Hardware",
+                "contactPerson": "Jane Doe",
+                "phoneNumber": "+1987654321",
+                "email": "jane@example.com"
+            },
+            "storageLocation": "Warehouse B",
+            "batchManaged": false,
+            "serialManaged": false,
+            "valuationClass": "Standard",
+            "materialGroup": "1001",
+            "unitOfMeasure": "Each",
+            "createdDate": "2023-06-15",
+            "lastUpdated": "2024-02-22",
+            "images": [
+                "https://th.bing.com/th/id/R.d3608f0f7a842b20373c5ba5e8868d71?rik=NF4UMI1j0It1zg&riu=http%3a%2f%2f1.bp.blogspot.com%2f-s-AtO6WNS5Q%2fUbBqBFh2uTI%2fAAAAAAAAIxo%2frQA0wc2dhRc%2fs1600%2f3eb669f9fa0eb02649a6673276a73d79.jpeg&ehk=VMMcpPnAEih6piUBF3cnJV4G%2fjibrKKLBtq1RZJl0Gc%3d&risl=&pid=ImgRaw&r=0"
+            ],
+            "attachments": [
+                {
+                    "name": "Usage Guide",
+                    "url": "https://example.com/hammer_guide.pdf"
+                }
+            ]
+        },
+        {
+            "materialId": "MAT003",
+            "description": "Wrench",
+            "category": "Tools",
+            "unitPrice": 12,
+            "currency": "USD",
+            "quantityOnOrder": 20,
+            "reorderPoint": 10,
+            "supplier": {
+                "name": "XYZ Hardware",
+                "contactPerson": "Jane Doe",
+                "phoneNumber": "+1987654321",
+                "email": "jane@example.com"
+            },
+            "storageLocation": "Warehouse A",
+            "batchManaged": false,
+            "serialManaged": false,
+            "valuationClass": "Standard",
+            "materialGroup": "1001",
+            "unitOfMeasure": "Each",
+            "createdDate": "2023-07-20",
+            "lastUpdated": "2024-02-25",
+            "images": [
+                "https://www.aabtools.com/wp-content/uploads/RGD_31010.jpg"
+            ],
+            "attachments": [
+                {
+                    "name": "Product Manual",
+                    "url": "https://example.com/wrench_manual.pdf"
+                }
+            ]
+        },
+        {
+            "materialId": "MAT004",
+            "description": "Pliers",
+            "category": "Tools",
+            "unitPrice": 8.5,
+            "currency": "USD",
+            "quantityOnOrder": 30,
+            "reorderPoint": 15,
+            "supplier": {
+                "name": "ABC Tools Inc.",
+                "contactPerson": "John Smith",
+                "phoneNumber": "+1234567890",
+                "email": "john@example.com"
+            },
+            "storageLocation": "Warehouse B",
+            "batchManaged": false,
+            "serialManaged": false,
+            "valuationClass": "Standard",
+            "materialGroup": "1001",
+            "unitOfMeasure": "Each",
+            "createdDate": "2023-08-05",
+            "lastUpdated": "2024-02-27",
+            "images": [
+                "https://m.media-amazon.com/images/I/61qJ485KguL._SL1500_.jpg"
+            ],
+            "attachments": [
+                {
+                    "name": "Safety Guidelines",
+                    "url": "https://example.com/pliers_safety.pdf"
+                }
+            ]
+        },
+        {
+            "materialId": "MAT005",
+            "description": "Riveting Pliers",
+            "category": "Tools",
+            "unitPrice": 15.75,
+            "currency": "USD",
+            "quantityOnOrder": 25,
+            "reorderPoint": 10,
+            "supplier": {
+                "name": "Ace Hardware",
+                "contactPerson": "Bob Johnson",
+                "phoneNumber": "+1122334455",
+                "email": "bob@example.com"
+            },
+            "storageLocation": "Warehouse C",
+            "batchManaged": false,
+            "serialManaged": false,
+            "valuationClass": "Standard",
+            "materialGroup": "1001",
+            "unitOfMeasure": "Each",
+            "createdDate": "2023-09-10",
+            "lastUpdated": "2024-02-26",
+            "images": [
+                "https://www.fc-moto.de/WebRoot/FCMotoDB/Shops/10207048/6309/FA73/A8AB/1D85/4227/AC1E/1406/77DF/1093348_1_800wx800h.jpeg"
+            ],
+            "attachments": [
+                {
+                    "name": "Product Specs",
+                    "url": "https://example.com/hammer_specs.pdf"
+                }
+            ]
+        },
+        {
+            "materialId": "MAT006",
+            "description": "Screwdriver Set",
+            "category": "Tools",
+            "unitPrice": 20.5,
+            "currency": "USD",
+            "quantityOnOrder": 35,
+            "reorderPoint": 15,
+            "supplier": {
+                "name": "Hardware Emporium",
+                "contactPerson": "Sarah Lee",
+                "phoneNumber": "+9988776655",
+                "email": "sarah@example.com"
+            },
+            "storageLocation": "Warehouse A",
+            "batchManaged": false,
+            "serialManaged": false,
+            "valuationClass": "Standard",
+            "materialGroup": "1001",
+            "unitOfMeasure": "Set",
+            "createdDate": "2023-09-15",
+            "lastUpdated": "2024-02-28",
+            "images": [
+                "https://ae01.alicdn.com/kf/HTB1dCsHe7yWBuNjy0Fpq6yssXXaf/45-in-1-Precision-Screwdriver-Set-For-iPhone-apple-iPad-Laptop-PC-Mobile-Phone-Repair-Tool.jpg"
+            ],
+            "attachments": [
+                {
+                    "name": "Assembly Instructions",
+                    "url": "https://example.com/screwdriver_assembly.pdf"
+                }
+            ]
+        },
+        {
+            "materialId": "MAT007",
+            "description": "Drill",
+            "category": "Tools",
+            "unitPrice": 79.99,
+            "currency": "USD",
+            "quantityOnOrder": 10,
+            "reorderPoint": 5,
+            "supplier": {
+                "name": "Tool Warehouse",
+                "contactPerson": "John Smith",
+                "phoneNumber": "+1122334455",
+                "email": "john@example.com"
+            },
+            "storageLocation": "Warehouse B",
+            "batchManaged": false,
+            "serialManaged": false,
+            "valuationClass": "Standard",
+            "materialGroup": "1001",
+            "unitOfMeasure": "Each",
+            "createdDate": "2023-09-20",
+            "lastUpdated": "2024-02-29",
+            "images": [
+                "https://th.bing.com/th/id/R.930f3e448025f19eed067e4ae934df3a?rik=wWHCOpJ%2bXOgHzA&riu=http%3a%2f%2fwww.tooled-up.com%2fartwork%2fprodzoom%2fBosch-06039D4070-UNIVERSALDRILL-18-18v-Cordless-Drill-Driver.jpg&ehk=FiR81EmsH7jLx9cN5yvCBkUrfYvyJ9ZJqQ56JKRt9V8%3d&risl=&pid=ImgRaw&r=0"
+            ],
+            "attachments": [
+                {
+                    "name": "User Manual",
+                    "url": "https://example.com/drill_manual.pdf"
+                }
+            ]
+        },
+        {
+            "materialId": "MAT008",
+            "description": "Saw",
+            "category": "Tools",
+            "unitPrice": 45.25,
+            "currency": "USD",
+            "quantityOnOrder": 20,
+            "reorderPoint": 10,
+            "supplier": {
+                "name": "ToolMaster",
+                "contactPerson": "Emily Davis",
+                "phoneNumber": "+9988776655",
+                "email": "emily@example.com"
+            },
+            "storageLocation": "Warehouse A",
+            "batchManaged": false,
+            "serialManaged": false,
+            "valuationClass": "Standard",
+            "materialGroup": "1001",
+            "unitOfMeasure": "Each",
+            "createdDate": "2023-09-25",
+            "lastUpdated": "2024-03-01",
+            "images": [
+                "https://th.bing.com/th/id/R.3bc6a366083c906a3589df6a1b0ea273?rik=ksyNzYnoA1n5yA&riu=http%3a%2f%2fwww.northerntool.com%2fimages%2fproduct%2f2000x2000%2f307%2f30722_2000x2000.jpg&ehk=GpQNL7gPgV1Pz05kUzKzwJOfREPmrPV%2bgaXZa5y350E%3d&risl=&pid=ImgRaw&r=0"
+            ],
+            "attachments": [
+                {
+                    "name": "Safety Guide",
+                    "url": "https://example.com/saw_safety.pdf"
+                }
+            ]
+        },
+        {
+            "materialId": "MAT009",
+            "description": "Tool Set",
+            "category": "Tools",
+            "unitPrice": 19.99,
+            "currency": "USD",
+            "quantityOnOrder": 50,
+            "reorderPoint": 20,
+            "supplier": {
+                "name": "Hardware Supply Co.",
+                "contactPerson": "David Johnson",
+                "phoneNumber": "+1234567890",
+                "email": "david@example.com"
+            },
+            "storageLocation": "Warehouse A",
+            "batchManaged": false,
+            "serialManaged": false,
+            "valuationClass": "Standard",
+            "materialGroup": "1001",
+            "unitOfMeasure": "Each",
+            "createdDate": "2023-09-15",
+            "lastUpdated": "2024-03-02",
+            "images": [
+                "https://jxtcompany.com/wp-content/uploads/2016/04/3-1200x630-cropped.jpg"
+            ],
+            "attachments": [
+                {
+                    "name": "User Manual",
+                    "url": "https://example.com/hammer_manual.pdf"
+                }
+            ]
+        },
+        {
+            "materialId": "MAT0010",
+            "description": "Screw Bolts",
+            "category": "Tools",
+            "unitPrice": 29.99,
+            "currency": "USD",
+            "quantityOnOrder": 30,
+            "reorderPoint": 15,
+            "supplier": {
+                "name": "ToolsRUs",
+                "contactPerson": "Emma Brown",
+                "phoneNumber": "+9876543210",
+                "email": "emma@example.com"
+            },
+            "storageLocation": "Warehouse B",
+            "batchManaged": false,
+            "serialManaged": false,
+            "valuationClass": "Standard",
+            "materialGroup": "1001",
+            "unitOfMeasure": "Set",
+            "createdDate": "2023-09-18",
+            "lastUpdated": "2024-03-03",
+            "images": [
+                "https://st.depositphotos.com/1000128/3214/i/450/depositphotos_32145433-stock-photo-bolts-and-nuts.jpg"
+            ],
+            "attachments": [
+                {
+                    "name": "Assembly Guide",
+                    "url": "https://example.com/screwdriver_assembly.pdf"
+                }
+            ]
+        },
+        {
+            "materialId": "testing111",
+            "description": "ashif description",
+            "category": " ashif category",
+            "unitPrice": 1000,
+            "currency": "INR",
+            "quantityOnOrder": 30,
+            "reorderPoint": 15,
+            "supplier": {
+                "name": "ToolsRUs",
+                "contactPerson": "Emma Brown",
+                "phoneNumber": "+9876543210",
+                "email": "emma@example.com"
+            },
+            "storageLocation": "Warehouse B",
+            "batchManaged": false,
+            "serialManaged": false,
+            "valuationClass": "Standard",
+            "materialGroup": "1001",
+            "unitOfMeasure": "Set",
+            "createdDate": "2024-03-23",
+            "lastUpdated": "2024-03-23",
+            "images": [
+                "https://st.depositphotos.com/1000128/3214/i/450/depositphotos_32145433-stock-photo-bolts-and-nuts.jpg"
+            ],
+            "attachments": [
+                {
+                    "name": "Assembly Guide",
+                    "url": "https://example.com/screwdriver_assembly.pdf"
+                }
+            ]
+        },
+        {
+            "materialId": "testing1",
+            "description": "Testing2",
+            "category": "ashif12",
+            "unitPrice": 29.99,
+            "currency": "INR",
+            "quantityOnOrder": 30,
+            "reorderPoint": 15,
+            "supplier": {
+                "name": "ToolsRUs",
+                "contactPerson": "Emma Brown",
+                "phoneNumber": "+9876543210",
+                "email": "emma@example.com"
+            },
+            "storageLocation": "Warehouse B",
+            "batchManaged": false,
+            "serialManaged": false,
+            "valuationClass": "Standard",
+            "materialGroup": "1001",
+            "unitOfMeasure": "Set",
+            "createdDate": "2024-03-23",
+            "lastUpdated": "2024-03-23",
+            "images": [
+                "https://st.depositphotos.com/1000128/3214/i/450/depositphotos_32145433-stock-photo-bolts-and-nuts.jpg"
+            ],
+            "attachments": [
+                {
+                    "name": "Assembly Guide",
+                    "url": "https://example.com/screwdriver_assembly.pdf"
+                }
+            ]
+        },
+        {
+            "materialId": "testing2",
+            "description": "Testing2",
+            "category": "ashif12",
+            "unitPrice": 29.99,
+            "currency": "INR",
+            "quantityOnOrder": 30,
+            "reorderPoint": 15,
+            "supplier": {
+                "name": "ToolsRUs",
+                "contactPerson": "Emma Brown",
+                "phoneNumber": "+9876543210",
+                "email": "emma@example.com"
+            },
+            "storageLocation": "Warehouse B",
+            "batchManaged": false,
+            "serialManaged": false,
+            "valuationClass": "Standard",
+            "materialGroup": "1001",
+            "unitOfMeasure": "Set",
+            "createdDate": "2024-03-23",
+            "lastUpdated": "2024-03-23",
+            "images": [
+                "https://st.depositphotos.com/1000128/3214/i/450/depositphotos_32145433-stock-photo-bolts-and-nuts.jpg"
+            ],
+            "attachments": [
+                {
+                    "name": "Assembly Guide",
+                    "url": "https://example.com/screwdriver_assembly.pdf"
+                }
+            ]
+        },
+        {
+            "materialId": "testing3",
+            "description": "Testing2",
+            "category": "ashif12",
+            "unitPrice": 29.99,
+            "currency": "INR",
+            "quantityOnOrder": 30,
+            "reorderPoint": 15,
+            "supplier": {
+                "name": "ToolsRUs",
+                "contactPerson": "Emma Brown",
+                "phoneNumber": "+9876543210",
+                "email": "emma@example.com"
+            },
+            "storageLocation": "Warehouse B",
+            "batchManaged": false,
+            "serialManaged": false,
+            "valuationClass": "Standard",
+            "materialGroup": "1001",
+            "unitOfMeasure": "Set",
+            "createdDate": "2024-03-23",
+            "lastUpdated": "2024-03-23",
+            "images": [
+                "https://st.depositphotos.com/1000128/3214/i/450/depositphotos_32145433-stock-photo-bolts-and-nuts.jpg"
+            ],
+            "attachments": [
+                {
+                    "name": "Assembly Guide",
+                    "url": "https://example.com/screwdriver_assembly.pdf"
+                }
+            ]
+        }
+    ]
+}
